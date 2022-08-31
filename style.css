@@ -47,6 +47,7 @@ li {
   justify-content: space-between;
   border-top: 1px solid #153040;
   padding: 15px 20px 15px 45px;
+  font-size: 16px;
 }
 
 .text-style-info,
