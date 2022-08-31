@@ -24,7 +24,10 @@ h1 {
   margin: 30px 0;
 }
 
-h1 span {}
+.h1_fetch {
+  font-size: 15px;
+  font-weight: 300;
+}
 
 ul {
   list-style: none;
@@ -72,12 +75,7 @@ li {
   font-size: 13px;
 }
 
-/* Ul version 2 */
-
-.this {
-  color: red;
-}
-
-.function {
-  color: #FECC3F;
+.slash {
+  font-weight: 200;
+  opacity: .3;
 }
