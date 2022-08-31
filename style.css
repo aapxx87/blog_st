@@ -105,13 +105,14 @@ li {
 }
 
 .end_run {
-  margin-left: 45px;
+  margin-left: 20px;
   display: flex;
   align-items: flex-end;
   font-weight: 300;
   opacity: 0.8;
-  font-size: 15px;
+  font-size: 14px;
   color: #294F67;
+  margin-bottom: 20px;
 }
 
 .dot {
@@ -122,6 +123,7 @@ li {
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
   margin-left: 2px;
+
 }
 
 
