@@ -15,13 +15,13 @@ body {
 
 .container {
   max-width: 700px;
-  padding: 0 10px;
+  /* padding: 0 10px; */
   /* border: 1px solid rgb(204, 204, 204); */
   margin: 30px auto;
 }
 
 h1 {
-  margin: 30px 0;
+  margin: 30px 20px;
 }
 
 .h1_fetch {
@@ -40,7 +40,7 @@ li {
   align-items: center;
   justify-content: space-between;
   border-top: 1px solid #153040;
-  margin: 10px 0;
+  padding: 15px 20px;
 }
 
 .text-style-info,
@@ -78,4 +78,8 @@ li {
 .slash {
   font-weight: 200;
   opacity: .3;
+}
+
+.net {
+  background-color: #002632;
 }
