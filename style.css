@@ -28,21 +28,24 @@ h1 span {}
 
 ul {
   list-style: none;
+  margin-bottom: 100px;
 }
 
 li {
-  height: 30px;
+  height: 45px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #153040;
+  border-top: 1px solid #153040;
   margin: 10px 0;
 }
 
 .text-style-info,
 .text-style-debug,
-.text-style-warning {
+.text-style-warning,
+.text-style-error {
   font-weight: 200;
-  font-size: 13px;
+  font-size: 11px;
 }
 
 .text-style-info {
@@ -59,7 +62,22 @@ li {
   color: #FECC3F;
 }
 
+.text-style-error {
+  color: #FC3A60;
+}
+
+
 .date {
   color: #294F67;
   font-size: 13px;
+}
+
+/* Ul version 2 */
+
+.this {
+  color: red;
+}
+
+.function {
+  color: #FECC3F;
 }
