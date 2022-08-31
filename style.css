@@ -47,7 +47,7 @@ li {
   justify-content: space-between;
   border-top: 1px solid #153040;
   padding: 15px 20px 15px 45px;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 .text-style-info,
@@ -56,24 +56,37 @@ li {
 .text-style-error {
   font-weight: 200;
   font-size: 11px;
+  opacity: 0.7;
 }
 
 .text-style-info {
   color: #0BAEDC;
+  background-color: rgba(11, 174, 220, 0.1);
+  padding: 2px 4px;
+  border-radius: 3px;
 }
 
 
 .text-style-debug {
   color: #00D6A2;
+  background-color: rgba(0, 214, 162, 0.1);
+  padding: 2px 4px;
+  border-radius: 3px;
 }
 
 
 .text-style-warning {
   color: #FECC3F;
+  background-color: rgba(254, 204, 63, 0.1);
+  padding: 2px 4px;
+  border-radius: 3px;
 }
 
 .text-style-error {
   color: #FC3A60;
+  background-color: rgba(252, 58, 96, 0.1);
+  padding: 2px 4px;
+  border-radius: 3px;
 }
 
 
