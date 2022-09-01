@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Roboto:wght@100;300;400;500&display=swap');
 
 @import url(roots.css);
 @import url(fonts.css);
@@ -6,7 +8,8 @@
 
 
 * {
-  font-family: 'Readex Pro';
+  /* font-family: 'Readex Pro'; */
+  font-family: 'Roboto', sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -21,4 +24,104 @@ body {
 .container-app {
   max-width: 700px;
   margin: 30px auto;
+}
+
+
+.container-article {
+  max-width: 700px;
+  margin: 20px auto;
+  /* padding: 30px; */
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+
+
+/* Article page */
+
+/* Object decoration */
+
+.article_title_deco {
+  margin-left: 20px;
+  font-weight: 400;
+  opacity: 0.9;
+  font-size: 14px;
+  color: var(--deorationColor);
+  margin-bottom: 20px;
+}
+
+.hidden_space {
+  opacity: 0;
+}
+
+.const {
+  /* color: #C590E6; */
+}
+
+.text {
+  color: #C9987F;
+  font-weight: 600;
+}
+
+.number {
+  color: #a1b01e;
+  font-weight: 500;
+}
+
+/* Article */
+
+.article {
+  margin-top: 30px;
+  padding-left: 45px;
+  padding-right: 20px;
+}
+
+.article p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  margin-bottom: 20px;
+  /* margin-left: 20px; */
+  color: var(--colorTextDarker);
+}
+
+.article h3 {
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 20px;
+}
+
+.header_info {
+  display: inline-block;
+  color: #0BAEDC;
+  background-color: rgba(11, 174, 220, 0.1);
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.6;
+  padding: 4px 6px;
+  border-radius: 3px;
+}
+
+.header_warning {
+  display: inline-block;
+  color: #FECC3F;
+  background-color: rgba(254, 204, 63, 0.1);
+  font-weight: 400;
+  font-size: 14px;
+  opacity: 0.6;
+  padding: 4px 6px;
+  border-radius: 3px;
+}
+
+#text-warning {
+  color: #fecb3f65;
+}
+
+
+.header_error {
+  display: inline-block;
+  color: #FC3A60;
+  background-color: rgba(252, 58, 96, 0.2);
+  font-weight: 400;
+  font-size: 14px;
+  opacity: 0.6;
+  padding: 4px 6px;
+  border-radius: 3px;
 }
