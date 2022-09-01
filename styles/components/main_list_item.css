@@ -1,0 +1,64 @@
+ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+li {
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #153040;
+  padding: 15px 20px 15px 45px;
+  font-size: 18px;
+}
+
+.text-style-info,
+.text-style-debug,
+.text-style-warning,
+.text-style-error {
+  font-weight: 200;
+  font-size: 11px;
+  opacity: 0.6;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+.text-style-info {
+  color: #0BAEDC;
+  background-color: rgba(11, 174, 220, 0.1);
+}
+
+
+.text-style-debug {
+  color: #00D6A2;
+  background-color: rgba(0, 214, 162, 0.1);
+}
+
+
+.text-style-warning {
+  color: #FECC3F;
+  background-color: rgba(254, 204, 63, 0.1);
+}
+
+.text-style-error {
+  color: #FC3A60;
+  background-color: rgba(252, 58, 96, 0.2);
+}
+
+
+.date {
+  color: var(--deorationColor);
+  font-size: 13px;
+}
+
+.slash {
+  font-weight: 200;
+  opacity: .3;
+}
+
+
+/* change bg color after one item - manually */
+.net {
+  background-color: #002632;
+}
