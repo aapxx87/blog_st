@@ -7,6 +7,7 @@
 @import url(components/main_list_item.css);
 
 
+
 * {
   /* font-family: 'Readex Pro'; */
   font-family: 'Roboto', sans-serif;
@@ -125,3 +126,7 @@ body {
   padding: 4px 6px;
   border-radius: 3px;
 }
+
+
+
+/* Markdown look */
