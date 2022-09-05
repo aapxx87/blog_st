@@ -66,8 +66,8 @@ h3 {
   font-size: 19px;
   font-weight: 600;
   margin-bottom: 20px;
-  /* color: #83aed2; */
-  color: #969693;
+  color: #83aed2;
+  /* color: #969693; */
 }
 
 h2 {
@@ -94,7 +94,7 @@ h3 {
 }
 
 .article-text--error {
-  background-color: #282727;
+  background-color: #302e2e;
   padding: 10px;
   color: #C6887A;
 }
