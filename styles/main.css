@@ -44,12 +44,14 @@ body {
 /* Object decoration */
 
 .article_title_deco {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.4;
   margin-left: 20px;
   font-weight: 400;
   opacity: 0.9;
-  font-size: 14px;
-  color: var(--deorationColor);
-  margin-bottom: 20px;
+  font-size: 16px;
+  color: rgba(99, 221, 255, 0.606);
+  margin-bottom: 30px;
 }
 
 .hidden_space {
@@ -102,11 +104,11 @@ body {
 
 .header_info {
   display: inline-block;
-  color: rgb(99, 221, 255);
+  color: rgba(99, 221, 255, 0.694);
   background-color: rgba(11, 174, 220, 0.1);
-  font-weight: 400;
+  font-weight: 300;
   font-size: 16px;
-  opacity: 0.6;
+  /* opacity: 0.6; */
   padding: 5px 10px;
   border-radius: 3px;
 }
