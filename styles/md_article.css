@@ -44,9 +44,9 @@ h1 a {
 h2,
 h3 {
   font-size: 19px;
-  font-weight: 400;
+  font-weight: 500;
   margin-bottom: 20px;
-  color: #fff;
+  color: #849DB9;
 }
 
 h2 {
@@ -60,12 +60,14 @@ h3 {
 
 
 .article-text {
-  margin: 0 20px 20px 52px;
-  font-size: 16px;
+  margin: 0 30px 20px 52px;
+  font-size: 15px;
   word-spacing: 3px;
   letter-spacing: .2px;
 }
 
 .article-text--idea {
-  color: #6C8368;
+  background-color: #3E3E3E;
+  padding: 10px;
+  /* color: #93A279; */
 }
