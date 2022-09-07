@@ -1,4 +1,4 @@
-ul {
+.main-page_ul {
   list-style: none;
   margin-bottom: 20px;
 }
@@ -65,6 +65,6 @@ li a {
 
 
 /* change bg color after one item - manually */
-.net {
+.second-li-color {
   background-color: #002632;
 }
