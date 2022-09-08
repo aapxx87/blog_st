@@ -5,13 +5,15 @@
 @import url(roots.css);
 @import url(fonts.css);
 
-@import url(/styles/article.css);
-@import url(/styles/main_page.css);
+/* @import url(styles/article.css); */
+@import url(main_page.css);
+@import url(article.css);
 
 @import url(components/main_list_item.css);
 @import url(components/terminal_decoration.css);
 @import url(components/object_decoration.css);
 @import url(components/header_primary.css);
+
 
 
 
