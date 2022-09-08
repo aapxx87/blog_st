@@ -1,11 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
 
-
-
 @import url(roots.css);
 @import url(fonts.css);
 
-/* @import url(styles/article.css); */
 @import url(main_page.css);
 @import url(article.css);
 
@@ -13,9 +10,6 @@
 @import url(components/terminal_decoration.css);
 @import url(components/object_decoration.css);
 @import url(components/header_primary.css);
-
-
-
 
 
 
