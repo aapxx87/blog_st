@@ -1,0 +1,14 @@
+.header-primary {
+  margin: 30px 20px;
+  margin-bottom: 15px;
+}
+
+.header-primary a {
+  text-decoration: none;
+  color: var(--mainTextColor);
+}
+
+.header-primary--fetch {
+  font-size: 15px;
+  font-weight: 300;
+}
