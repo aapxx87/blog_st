@@ -3,9 +3,9 @@
   margin: 20px auto;
   font-weight: 400;
   padding-bottom: 30px;
-  /* background-image: url(assets/patternpad.svg);
-  background-size: cover;
-  background-position: center; */
+  background-image: url(assets/patternpad.svg);
+  background-size: auto;
+  background-position: center;
 }
 
 
