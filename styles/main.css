@@ -29,3 +29,9 @@ body {
   background: var(--mainBodyColor);
   color: var(--mainTextColor);
 }
+
+.container-article {
+  background-image: url(assets/patternpad.svg);
+  background-size: auto;
+  background-position: center;
+}
