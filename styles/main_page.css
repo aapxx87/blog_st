@@ -12,13 +12,18 @@
 
 
 .social-links {
-  height: 35px;
+  /* height: 55px; */
   margin-top: 20px;
   margin-left: 20px;
 }
 
-.social-links img {
+.social-links a {
+  text-decoration: none;
+}
+
+.social-links i {
   height: 100%;
   margin-right: 15px;
-  opacity: .4;
+  color: #4d819f9e;
+  font-size: 25px;
 }
