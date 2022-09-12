@@ -12,9 +12,6 @@
 
 
 .social-links {
-  /* display: flex;
-  width: 170px; */
-  /* justify-content: start; */
   height: 35px;
   margin-top: 20px;
   margin-left: 20px;
@@ -23,5 +20,5 @@
 .social-links img {
   height: 100%;
   margin-right: 15px;
-  opacity: .6;
+  opacity: .4;
 }
