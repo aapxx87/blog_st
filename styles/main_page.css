@@ -8,3 +8,19 @@
   background-size: auto;
   background-position: center;
 }
+
+
+
+.social-links {
+  display: flex;
+  justify-content: flex-start;
+  height: 25px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.social-links img {
+  height: 100%;
+  margin-right: 15px;
+  opacity: .6;
+}

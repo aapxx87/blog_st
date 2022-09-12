@@ -3,7 +3,7 @@
   margin-bottom: 20px;
 }
 
-li {
+.main-page_ul--li {
   height: 55px;
   display: flex;
   align-items: center;
