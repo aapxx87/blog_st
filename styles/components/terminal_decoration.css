@@ -7,6 +7,12 @@
   font-size: 14px;
   color: var(--deorationColor);
   margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.terminal_decoration span {
+  color: #4d819f;
+  font-weight: 500;
 }
 
 .terminal_decoration--dot {
