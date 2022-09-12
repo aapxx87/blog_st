@@ -13,8 +13,8 @@
 
 .social-links {
   display: flex;
-  justify-content: flex-start;
-  height: 25px;
+  justify-content: start;
+  height: 35px;
   margin-top: 20px;
   margin-left: 20px;
 }
