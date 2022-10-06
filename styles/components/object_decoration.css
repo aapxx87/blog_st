@@ -1,5 +1,6 @@
 .object_decoration_box {
   display: inline-block;
+  width: 90%;
   background-color: rgba(0, 0, 0, 0.306);
   padding: 10px 20px;
   border: 1px solid rgb(77, 74, 74);

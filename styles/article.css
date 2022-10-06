@@ -47,6 +47,10 @@
   letter-spacing: .1px;
 }
 
+.article--main-text a {
+  color: var(--mainTextColor);
+}
+
 .text-highlight-yellow {
   color: #fecb3fcf;
   background-color: rgba(254, 203, 63, 0.037);
