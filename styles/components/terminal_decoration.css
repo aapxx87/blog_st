@@ -1,0 +1,38 @@
+.terminal_decoration {
+  margin-left: 20px;
+  display: flex;
+  align-items: flex-end;
+  font-weight: 400;
+  opacity: 0.9;
+  font-size: 14px;
+  color: var(--deorationColor);
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.terminal_decoration span {
+  color: #4d819f;
+  font-weight: 500;
+}
+
+.terminal_decoration--dot {
+  width: 5px;
+  height: 5px;
+  background-color: var(--deorationColor);
+  animation-name: example;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  margin-left: 2px;
+}
+
+/* Dot animation */
+
+@keyframes example {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

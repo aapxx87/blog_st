@@ -1,0 +1,26 @@
+.object_decoration_box {
+  display: inline-block;
+  width: 90%;
+  background-color: rgba(0, 0, 0, 0.306);
+  padding: 10px 20px;
+  border: 1px solid rgb(77, 74, 74);
+  font-size: 16px;
+  border-radius: 2px;
+  margin: 10px 0px 35px 20px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.hidden_space {
+  opacity: 0;
+}
+
+.text {
+  color: #C9987F;
+  font-weight: 600;
+}
+
+.number {
+  color: #a1b01e;
+  font-weight: 500;
+}

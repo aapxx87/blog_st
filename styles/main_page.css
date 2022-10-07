@@ -1,0 +1,29 @@
+.container-app {
+  max-width: 700px;
+  margin: 30px auto;
+}
+
+.container-MainPage {
+  background-image: url(assets/patternpad.svg);
+  background-size: auto;
+  background-position: center;
+}
+
+
+
+.social-links {
+  /* height: 55px; */
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.social-links a {
+  text-decoration: none;
+}
+
+.social-links i {
+  height: 100%;
+  margin-right: 15px;
+  color: #4d819f9e;
+  font-size: 25px;
+}
