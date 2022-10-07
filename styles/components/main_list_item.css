@@ -46,6 +46,10 @@
   background-color: rgba(252, 58, 96, 0.2);
 }
 
+.name_soon {
+  color: var(--deorationColor);
+}
+
 
 .date {
   color: var(--deorationColor);
