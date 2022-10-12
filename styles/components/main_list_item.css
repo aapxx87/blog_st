@@ -4,13 +4,19 @@
 }
 
 .main-page_ul--li {
-  height: 55px;
+  /* height: 55px; */
   display: flex;
-  align-items: center;
+  align-items: revert;
   justify-content: space-between;
   border-top: 1px solid #153040;
   padding: 15px 20px 15px 45px;
   font-size: 18px;
+}
+
+.naming-box,
+.date-box {
+  display: flex;
+  align-items: center;
 }
 
 .text-style-info,
@@ -22,6 +28,7 @@
   opacity: 0.6;
   padding: 2px 4px;
   border-radius: 3px;
+  margin-right: 7px;
 }
 
 .text-style-info {
